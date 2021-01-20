@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+
+    <meta name="lp" content="<?php echo $LandingName ?>">
+    <meta name="lp_url" content="<?php echo $LandingURL ?>">
+    <meta name="t_geo" content="<?php echo $LandingGeo ?>">
+    <meta name="lang" content="">
+    <meta name="token" content="<?php echo $unique_token ?>">
+    <meta name="subid" content="<?php echo $subid ?>">
+    <meta name="add_id" content="<?php echo $add_id ?>">
+    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=<?php echo $FacebookPixel ?>&ev=PageView&noscript=1"/>
+
+<!--      <meta name="pixel_id" content="111">-->
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+<!--    <div id="components-demo"></div>-->
+
+    <div class="app" data-ajax="true" id="app" data-butt="шаг1" data-type="1" data-email="" data-name="" data-target-geo="RU" data-validate="false"></div>
+    <div class="app" data-url="https://testfront1.site/thankyou.php" data-ajax="true" id="app2" data-butt="шаг2" data-type="2" data-email="" data-name="" data-terms="true"></div>
+<!--    <div class="app" id="app3" data-butt="шаг3" data-butt1="заказать" data-type="3" data-email="" data-name=""></div>-->
+
+    <div class="video-block" data-video="XkJjilQEP0w" data-height="495"></div>
+
+<!--    <div class="video">-->
+<!--      <video controls="controls" poster="video/2.png" allowfullscreen="">-->
+<!--        <source src="video/nextStep.mp4" type="video/mp4" />-->
+<!--      </video>-->
+<!--      <div class="play-btn"></div>-->
+<!--    </div>-->
+
+    <!-- RU links -->
+    <a href="javascript:void(0)" data-name="terms" class="alterlink">Пользовательское соглашение</a> | <a href="javascript:void(0)" data-name="policy" class="alterlink">Политика конфиденциальности</a>
+    <!-- AR links -->
+    <a href="javascript:void(0)" data-name="terms" class="alterlink">اتفاقية العميل</a> | <a href="javascript:void(0)" data-name="policy" class="alterlink">سياسة الخصوصية</a>
+    <!-- EN links -->
+<!--    <a href="javascript:void(0)" data-name="terms" class="alterlink">Пользовательское соглашение</a> | <a href="javascript:void(0)" data-name="policy" class="alterlink">Политика конфиденциальности</a>-->
+
+  </body>
+
+
+<!-- ONLY FOR EXITINTENT POPUPS -->
+<!-- JQUERY NEEDED -->
+<!--  <script src="https://cdn-addict.site/addict-link-test/js/exitintent.min.js"></script>-->
+
+</html>
